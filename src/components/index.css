@@ -1,0 +1,297 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Inter:wght@500;700&family=Kanit:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+body {
+  margin-left: 80px;
+  margin-right: 80px;
+  background-color: #140025;
+}
+
+p {
+  color: #ffffff;
+}
+
+button {
+  border: none;
+  border-color: transparent;
+  border-radius: 100px;
+}
+
+.divider {
+  height: 2px;
+  color: white;
+  background-color: gray;
+}
+
+header {
+  position: sticky;
+  top: 0px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #140025;
+}
+
+.author :hover {
+  background-color: #140025;
+}
+
+.name {
+  font-family: "Courier New";
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 32px;
+  margin-top: 32px;
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.headerMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  height: 22px;
+  gap: 32px;
+}
+
+.headerMenu :hover {
+  background-color: #ffffff;
+  color: black;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+.first_about {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 169px;
+}
+
+.sub_about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.aboutSkills {
+  display: flex;
+}
+.projectName {
+  font-family: 'Courier New';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #FFFFFF;
+  margin: 0px;
+}
+
+.contactButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 30px;
+  background-color: transparent;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+}
+
+.contactButtons button {
+  background-color: transparent;
+  color: #ffffff;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+
+.sectionContacts{
+  height: 875px;
+}
+.skills{
+  margin-left: -20px;
+  margin-right: 40px;
+}
+
+.image {
+  display: flex;
+  align-self: center;
+  height: inherit;
+}
+
+.sectionExperience, .sectionProject {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  margin-bottom: 160px;
+}
+
+.experiences {
+  width: 100%;
+  display: flex;
+  gap: 10%;
+}
+
+.experienceDates {
+  margin: 0;
+  color: #ffffff;
+  width: 200px;
+  font-family: 'Courier New';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.allAboutExperiences {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+
+.position {
+  margin-top: 0px;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.company {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.location {
+  font-family: Inter;
+  font-weight: 400;
+  margin: 0px;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.description {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.project {
+  display: flex;
+}
+
+.aboutProject {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 150px;
+}
+
+
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
+  margin-top: 42px;
+  margin-bottom: 42px;
+}
+
+.madeWith {
+  display: flex;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.credits {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  opacity: 0.5;
+}
+
+a {
+  color: inherit;
+}
+
+.headerButtons {
+  color: #ffffff;
+  background-color: transparent;
+  height: 22px;
+  font-size: 16px;
+}
+
+.welcoming, .sectionContacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.welcoming{
+  height: 622px;
+}
+
+.sectionTexts {
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionHeaders {
+  margin-top: 169px;
+  color: #ffffff;
+  font-family: 'Courier New';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+}
+
+.small_txt {
+  font-family: Kanit;
+  font-weight: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.welcoming button {
+  margin-top: 40px;
+  justify-content: flex-start;
+  width: 13.8%;
+  height: 56px;
+  background-color: #fd5a14;
+  color: white;
+  font-size: 20px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.sectionAbout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+

@@ -1,0 +1,22 @@
+{
+    "experience": [
+        {
+        "id": "0",
+        "date": "2022-2024",
+        "position": "Student",
+        "location": "Astana, Kazakhstan",
+        "company": "Nazarabyev University",
+        "description": [
+        ]
+        },
+        {
+        "id": "1",
+        "date": "12/2022 - Present",
+        "position": "Student",
+        "location": "Almaty, Kazakhstan",
+        "company": "Nfactorial",
+        "description": [
+        ]
+        }
+    ]
+}
